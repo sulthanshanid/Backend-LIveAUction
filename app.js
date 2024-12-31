@@ -10,10 +10,10 @@ app.use(cors());
 
 // Database connection
 const db = mysql.createPool({
-  host: "localhost",
-  user: "root",
-  password: "root",
-  database: "auction_db",
+  host: "sql.freedb.tech",
+  database: "freedb_auction_db",
+  user: "freedb_shanid",
+  password: "2jqrB$K#8Q46xyB",
 });
 
 // Setup WebSocket server
